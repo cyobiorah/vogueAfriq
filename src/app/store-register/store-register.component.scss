@@ -1,0 +1,61 @@
+.main {
+    
+    .headerContainer {
+        background: #BDBDBD;
+        padding: 40px;
+        
+        h2 {
+            color: #4F4F4F;
+            font-weight: bold;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            letter-spacing: 2.5px
+        }
+    }
+
+    .form-body {
+        background: #E0E0E0;
+        padding-top: 50px;
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px 0;
+
+            .row {
+                margin-bottom: 50px;
+                margin-right: 25px;
+                margin-left: 0;
+            }
+
+            // .col-6 {
+            //     width: 95%;
+            //     outline: 2px solid
+            // }
+
+            input {
+                background: #FFF;
+                border-bottom: none;
+                margin: 0;
+                margin-bottom: 2px;
+                padding-left: 25px;
+                width: 95%;
+            }
+
+            input::placeholder {
+                color: #000;
+            }
+
+            button {
+                height: 50px;
+                display: block;
+                border: none;
+                background: #FF473A;
+                color: #FFF;
+                font-weight: bold;
+                width: 100%;
+                margin: 75px 0;
+            }
+        }
+    }
+}

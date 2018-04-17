@@ -1,0 +1,71 @@
+.main {
+    
+    .headerContainer {
+        background: #BDBDBD;
+        padding: 40px;
+        
+        h2 {
+            color: #4F4F4F;
+            font-weight: bold;
+            font-family: 'Montserrat';
+            font-size: 18px;
+            letter-spacing: 2.5px;
+        }
+    }
+
+    .form-body {
+        background: #E0E0E0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Montserrat';
+            margin-bottom: 50px;
+        }
+
+        form {
+
+            input {
+                background: #FFF;
+                border-bottom: none;
+                margin: 0;
+                margin-bottom: 2px;
+                padding-left: 25px;
+                width: 95%;
+            }
+
+            input::placeholder {
+                color: #000;
+            }
+
+            select {
+                width: 100%;
+                background: #FFF;
+                border: none;
+                padding: 14px 22px;
+                margin-bottom: 2px;
+                outline: none;
+            }
+
+            a {
+                color: #FFF;
+                font-weight: bold;
+                margin-top: 10px;
+                display: block;
+            }
+
+            button {
+                height: 50px;
+                display: block;
+                border: none;
+                background: #FF473A;
+                color: #FFF;
+                font-weight: bold;
+                width: 100%;
+                margin: 75px 0;
+            }
+        }
+    }
+}

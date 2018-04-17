@@ -1,0 +1,19 @@
+.main {
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+    .row {
+        height: 150px;
+        margin-bottom: 30px;
+
+        .col {
+            padding-left: 0;
+        }
+        
+        .img {
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

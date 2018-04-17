@@ -1,0 +1,91 @@
+
+
+.mainTop {
+    margin-top: 50px;
+
+    .firstRow {
+        margin-right: 0;
+        height: 500px;
+        margin-bottom: 150px;
+        
+        h2 {
+            font-weight: bold;
+            font-size: 40px;
+            font-family: 'Montserrat';
+            color: #011936;
+            border-bottom: 3px solid #011936;
+            display: inline-block;
+            margin-left: 100px;
+            margin-bottom: 20px;
+            letter-spacing: 1.5px;
+        }
+        
+        .row {
+            height: 100%;
+            
+            .img {
+                object-fit: cover;
+                opacity: .9;
+            }
+            
+            .firstImg {
+                height: 500px;
+                width: 100%;
+                margin-left: -15px;
+            }
+        }
+        
+        .secondRow {
+            width: 90%;
+
+            .col-12 {
+                height: 50%;
+
+                .img {
+                    height: 230px;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .md-pills a {
+        color: #929292;
+    }
+
+    .imgGrid {
+        position: relative;
+        padding: .5em;
+        display: flex;
+        flex-flow: column nowrap;
+
+        .imgColumn {
+            display: flex;
+            flex-flow: row wrap;
+            margin: 1em;
+        }
+    }
+
+    .marginSet {
+        margin: 0 5px;
+        position: relative;
+
+        i {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .priceRange {
+            font-weight: bold;
+        }
+    }
+}

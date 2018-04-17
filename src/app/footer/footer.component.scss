@@ -1,0 +1,36 @@
+.footer {
+    background: #011936;
+    height: auto;
+    padding: 50px;
+    color: #FFF;
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #F2994A;
+        font-size: 14px;
+        font-weight: bold;
+        display: block;
+        margin: 20px 0;
+    }
+
+    input {
+        width: 70%;
+        margin-right: 5px;
+        background: #C4C4C4;
+        padding: 5px;
+        outline: none;
+    }
+
+    button {
+        background: #EB5757;
+        border: none;
+        color: #FFF;
+        padding: 7px 15px;
+    }
+}

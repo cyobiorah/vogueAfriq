@@ -1,0 +1,83 @@
+$brand-color: #011936;
+$accent-color: #F2994A;
+
+mdb-navbar {
+    position: relative;
+    top: 20px;
+}
+
+.upperNavList {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    position: relative;
+    background: $brand-color;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: semiBold;
+    line-height: 24px;
+    letter-spacing: 1%;
+
+    li span {
+        color: #FFFFFF;
+        float: right;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    span.register {
+        margin-left: 30px;
+    }
+
+    span.login {
+        margin-left: 100px;
+    }
+
+    span.sell {
+        color: $accent-color !important;
+    }
+}
+
+.navbar-brand {
+    color: $brand-color;
+    font-weight: bold;
+    display: flex;
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 1px;
+
+    span {
+        height: 7px;
+        width: 7px;
+        border-radius: 100%;
+        background-color: $accent-color;
+        position: relative;
+        top: 22px;
+        left: 3px;
+    }
+}
+
+.nav-item {
+    font-size: 16px;
+    color: $brand-color !important;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    form input {
+        background: #E0E0E0 !important;
+        border: 0;
+        border-radius: 50px;
+        padding: 10px;
+        width: 150px;
+    }
+    
+    form input::-webkit-input-placeholder {
+        color: #FFFFFF;
+        opacity: .8;
+        font-size: 21px;
+        text-align: right;
+    }
+}

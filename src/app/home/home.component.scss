@@ -1,0 +1,49 @@
+$danger-color: #EB5757;
+
+.main {
+    height: 450px;
+    position: relative;
+
+    .textContainer {
+        position: relative;
+        padding: 50px;
+
+        h2 {
+            font-size: 52px;
+        }
+
+        button {
+            background: $danger-color;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    }
+
+
+    .view {
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+        opacity: .4;
+        position: absolute;
+
+        .rowContainer {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            
+            .row {
+                height: 33%;
+                text-align: center;
+                color: #FFF;
+                font-weight: bold;
+
+                .storeBtn {
+                    height: 90%;
+                    background: $danger-color;
+                }
+            }
+        }
+    }
+}
+
